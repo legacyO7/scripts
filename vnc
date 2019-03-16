@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo apt install ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal gnome-core -y
+sudo apt install vnc4server leafpad -y
+vncserver
+vncserver -kill :1
+cp xstartup ~/.vnc
+chmod +x ~/.vnc/xstartup
+chmod +x env 
+vncserver
