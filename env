@@ -5,3 +5,5 @@ sudo apt install m4 default-jre default-jdk git ccache automake lzop bison gperf
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > /bin/repo
 chmod +x /bin/repo
 source ~/.bashrc 
+chmod +x g
+sudo install g /usr/local/bin/g
