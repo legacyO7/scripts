@@ -12,3 +12,5 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential \
 sudo apt-get install m4 python default-jre openjdk-8-jdk -y
 chmod +x g
 sudo install g /usr/local/bin/g
+git clone https://github.com/legacy08/tools.git
+cd tools
