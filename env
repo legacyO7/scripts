@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 sudo apt update
@@ -14,3 +15,14 @@ chmod +x g
 sudo install g /usr/local/bin/g
 git clone https://github.com/legacy08/tools.git
 cd tools
+clear
+printf " 1. PBRP\n 2.OFRP\n 3.CrDroid"
+read val
+if[ "$val" == "1" ]
+./pb
+elif[ "$val" == "2" ]
+./of
+elif[ "$val" == "3" ]
+./cr
+fi
+
