@@ -15,8 +15,9 @@ chmod +x g
 sudo install g /usr/local/bin/g
 git clone https://github.com/legacy08/tools.git
 cd tools
+chmod +x *
 clear
-printf " 1. PBRP\n 2.OFRP\n 3.CrDroid\n 4.Do nothing\n"
+printf " 1.PBRP\n 2.OFRP\n 3.CrDroid\n 4.Do nothing\n"
 read val
 if[ "$val" == "1" ]
 ./pb
