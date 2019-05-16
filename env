@@ -22,11 +22,11 @@ chmod +x *
 clear
 printf " 1.PBRP\n 2.OFRP\n 3.CrDroid\n 4.Do nothing\n"
 read val
-if[ "$val" == "1" ]
+if[ "$val" == "1" ]; then
 ./pb
-elif[ "$val" == "2" ]
+elif[ "$val" == "2" ]; then
 ./of
-elif[ "$val" == "3" ]
+else
 ./cr
 fi
 
