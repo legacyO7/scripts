@@ -20,13 +20,17 @@ git clone https://github.com/legacy08/tools.git
 cd tools
 chmod +x *
 clear
-printf " 1.PBRP\n 2.OFRP\n 3.CrDroid\n 4.Do nothing\n"
+printf " 1.PBRP\n 2.OFRP\n 3.CrDroid\n 4.Cypher\n 5.Do nothing\n"
 read val
 if[ "$val" == "1" ]; then
 ./pb
 elif[ "$val" == "2" ]; then
 ./of
-else
+elif[ "$val" == "3" ]; then
 ./cr
+elif[ "$val" == "4" ]; then
+./cy
+else
+echo exiting...
 fi
 
