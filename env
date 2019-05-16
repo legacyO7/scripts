@@ -15,6 +15,7 @@ sudo apt install php php-common gcc -y
 sudo apt install imagemagick -y
 sudo apt install php-imagick -y
 chmod +x g
+sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso -y
 sudo install g /usr/local/bin/g
 git clone https://github.com/legacy08/tools.git
 cd tools
