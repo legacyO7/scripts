@@ -1,14 +1,17 @@
 # scripts
-git clone https://github.com/legacy08/scripts.git 
+
+git clone https://github.com/legacy08/scripts.git
+
 cd scripts && chmod +x *
 
-For VNC
+# For VNC
 
 ./vnc
 
-For environment setup :
+# For environment setup 
 
 sudo su
+
 ./env
 
 
