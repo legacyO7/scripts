@@ -1,6 +1,6 @@
 # scripts
 
-git clone https://github.com/legacy08/scripts.git
+git clone https://github.com/legacyO7/scripts.git
 
 cd scripts && chmod +x *
 
